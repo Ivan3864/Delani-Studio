@@ -64,6 +64,15 @@ h4 {
 	transform: translate(-50%, -50%);
 
 }
+.centered3 {
+	position: absolute;
+	top: 370%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    opacity: 0.6;
+    border-color: transparent;
+
+}
 #headingp2 {
 	color: rgb(255, 255, 255);
 	text-align: center;
@@ -95,4 +104,27 @@ h4 {
   padding: 20px;
   text-align: center;
 }
+#text {
+	border : 2px solid #FFFFFF;
+	float: left;
+
+}
+#email {
+	border : 2px solid #FFFFFF;
+	float: right;
+
+}
+#textarea {
+	border : 2px solid #FFFFFF;
+
+
+}
+.h3final{
+	color: rgb(255, 255, 255);
+}
+h3 {
+	text-align: center;
+}
+form {
+	border-color: transparent;
 }
