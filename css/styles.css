@@ -104,6 +104,14 @@ h4 {
   padding: 20px;
   text-align: center;
 }
+.column3 {
+	float:;
+	width: 17%
+	padding: 20px;
+	text-align: center;
+}
+
+
 #text {
 	border : 2px solid #FFFFFF;
 	float: left;
