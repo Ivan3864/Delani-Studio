@@ -66,7 +66,7 @@ h4 {
 }
 .centered3 {
 	position: absolute;
-	top: 370%;
+	top: 390%;
 	left: 50%;
 	transform: translate(-50%,-50%);
     opacity: 0.6;
@@ -96,17 +96,52 @@ h4 {
 	text-align: center;
 	font-size: 14px
 }
-.column {
+.column1wwd {
   float: left;
   width: 33.33%;
   padding: 5px;
   text-align: center;
 }
+.column1text {
+	padding: 5px;
+	text-align: center;
+	width: 33.33%;
+	float: left;
+	display:none;
+}
+.column2wwd {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  text-align: center;
+}
+.column2text {
+	padding: 5px;
+	text-align: center;
+	width: 33.33%;
+	float: left;
+	display:none;
+}
+.column3wwd {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  text-align: center;
+}
+.column3text {
+	padding: 5px;
+	text-align: center;
+	width: 33.33%;
+	float: left;
+	display:none;
+}
+
 .column2 {
   float: left;
   width: 25%;
   padding: 20px;
   text-align: center;
+  background: rgb(240, 255, 235);
 }
 .column3 {
 	float:left;
