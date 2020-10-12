@@ -1,18 +1,21 @@
 $(document).ready(function() {
-  $("#1").click(function() {
-    $(".column1wwd").toggle();
-    $(".column1text").fadeToggle();
+  $(".column1wwd").click(function() {
+    $(".column1text").toggle();
+    $("#col1t-show").show();
   });
 });
 $(document).ready(function() {
-  $("#2").click(function() {
-    $(".column2wwd").toggle();
-    $(".column2text").fadeToggle();
+  $(".column2wwd").click(function() {
+    $(".column2text").toggle();
+    $("#col2t-show").toggle();
   });
 });
 $(document).ready(function() {
-  $("#3").click(function() {
-    $(".column3wwd").toggle();
-    $(".column3text").fadeToggle();
+  $(".column3wwd").click(function() {
+    $(".column3text").toggle();
+    $("#col3t-show").fadeToggle();
   });
 });
+function myFunction() {
+	alert("your message has been submitted");
+}
