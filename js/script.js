@@ -1,19 +1,19 @@
 $(document).ready(function() {
-  $(".column1wwd").click(function() {
-    $(".column1text").toggle();
-    $("#col1t-show").show();
+  $("#1").click(function() {
+    $(".show-column1text").toggle();
+    $("#1").toggle();
   });
 });
 $(document).ready(function() {
-  $(".column2wwd").click(function() {
-    $(".column2text").toggle();
-    $("#col2t-show").toggle();
+  $("#2").click(function() {
+    $(".show-column2text").toggle();
+    $("#2").toggle();
   });
 });
 $(document).ready(function() {
-  $(".column3wwd").click(function() {
-    $(".column3text").toggle();
-    $("#col3t-show").fadeToggle();
+  $("#3").click(function() {
+    $(".show-column3text").toggle();
+    $("#3").toggle();
   });
 });
 function myFunction() {
