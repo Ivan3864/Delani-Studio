@@ -16,6 +16,25 @@ $(document).ready(function() {
     $("#3").toggle();
   });
 });
+$(document).ready(function() {
+  $(".show-column1text").click(function() {
+    $("#1").toggle();
+    $(".show-column1text").toggle();
+  });
+});
+$(document).ready(function() {
+  $(".show-column2text").click(function() {
+    $("#2").toggle();
+    $(".show-column2text").toggle();
+  });
+});
+$(document).ready(function() {
+  $(".show-column3text").click(function() {
+    $("#3").toggle();
+    $(".show-column3text").toggle();
+  });
+});
+
 function myFunction() {
-	alert("your message has been submitted");
+	alert("Thank you,your message has been submitted!");
 }
