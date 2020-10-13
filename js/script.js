@@ -36,5 +36,5 @@ $(document).ready(function() {
 });
 
 function myFunction() {
-	alert("Thank you,your message has been submitted!");
+	alert("your message has been submitted!");
 }
