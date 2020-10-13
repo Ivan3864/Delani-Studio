@@ -66,7 +66,7 @@ h4 {
 }
 .centered3 {
 	position: absolute;
-	top: 370%;
+	top: 400%;
 	left: 50%;
 	transform: translate(-50%,-50%);
     opacity: 0.6;
@@ -100,13 +100,14 @@ h4 {
   float: left;
   width: 33.33%;
   padding: 5px;
-  text-align: center;
+  text-align:center;
 }
-.column1text {
+.show-column1text {
 	padding: 5px;
-	text-align: center;
-	width: 33.33%;
-	float: left;
+	text-align:center;
+	width: 27%;
+	position: absolute;
+	left: 8%;
 	display:none;
 }
 .column2wwd {
@@ -115,11 +116,12 @@ h4 {
   padding: 5px;
   text-align: center;
 }
-.column2text {
+.show-column2text {
 	padding: 5px;
-	text-align: center;
-	width: 33.33%;
-	float: left;
+	text-align:center;
+	width: 27%;
+	position: absolute;
+	left: 35%;
 	display:none;
 }
 .column3wwd {
@@ -128,11 +130,13 @@ h4 {
   padding: 5px;
   text-align: center;
 }
-.column3text {
+.show-column3text {
 	padding: 5px;
 	text-align: center;
-	width: 33.33%;
+	width: 27%;
 	float: left;
+	position: absolute;
+	left: 65%;
 	display:none;
 }
 
